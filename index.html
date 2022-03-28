@@ -12,6 +12,27 @@
             padding: 0;
             box-sizing: border-box;
         }
+        /* mobile version */
+        @media only screen and (max-width: 599px) {
+            .row-mobile-100 {
+                display: flex;
+                flex-direction: column;
+            }
+            .mobile-margin-top {
+                margin-top: 20px;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            .section-title {
+                font-size: 20px !important;
+            }
+            .text {
+                font-size: 12px;
+            }
+            .social-links-spacer {
+                width: 15%;
+            }
+        }
     </style>
 </head>
 
@@ -58,7 +79,7 @@
                                 </tr>
                                 <tr>
                                     <td align="center" style="padding: 30px 20px;">
-                                        <h2
+                                        <h2 class="section-title"
                                             style="
                                                 font-family: 'Times New Roman', Times, serif;
                                                 text-transform: uppercase;
@@ -78,7 +99,7 @@
                                         >
                                             By Anne-Marie Cattelain
                                         </h4>
-                                        <p 
+                                        <p class="text"
                                             style="
                                                 line-height: 1.3;
                                                 margin-bottom: 30px;
@@ -108,7 +129,7 @@
                                 <tr>
                                     <td align="center">
                                         <table width="300px" border='0' align='center' cellspacing='0' cellpadding='0'
-                                            style="margin: 10px 0 25px 0;"
+                                            style="margin: 10px 0 25px 0; max-width: 60%;"
                                         >
                                             <tr>
                                                 <td align="center" style="background: #1c1c1b; font-size: 1px;">
@@ -129,7 +150,7 @@
                             <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0"
                                 style="background: #ffffff; padding: 0 20px;" 
                             >
-                                <tr>
+                                <tr class="row-mobile-100">
                                     <td>
                                         <a href="https://www.relaischateaux.com/us/magazine/the-concierge/ten-best/7-north-american-escapes-in-the-great-outdoors" target="_blank" style="text-decoration: none;">
                                             <img src="./src/images/north american escapes.jpg" width="100%" alt="ariel view of waterfront property">
@@ -155,8 +176,8 @@
                                         >
                                             By Jane Knight
                                         </h4>
-                                        <p style="line-height: 1.3; margin-bottom: 30px;">
-                                            There’s nowhere better to reconnect with nature than the wide-open spaces of the USA and Canada, whose varied landscapes boast 
+                                        <p class="text" style="line-height: 1.3; margin-bottom: 30px;">
+                                            There's nowhere better to reconnect with nature than the wide-open spaces of the USA and Canada, whose varied landscapes boast 
                                             mountain highs, dramatic coastlines and the most rugged of desert backdrops. 
                                         </p>
                                         <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
@@ -181,7 +202,7 @@
                                     <td width="20px"></td>
                                     <td>
                                         <a href="https://www.relaischateaux.com/us/magazine/travel/travel-journal/5-glamping-spots-in-north-america" target="_blank" style="text-decoration: none;">
-                                            <img src="./src/images/glamping spots.jpg" width="100%" alt="view of glamping tent">
+                                            <img src="./src/images/glamping spots.jpg" class="mobile-margin-top" width="100%" alt="view of glamping tent">
                                         </a>
                                         <h3 
                                             style="
@@ -204,7 +225,7 @@
                                         >
                                             By Juliet Izon
                                         </h4>
-                                        <p style="line-height: 1.3; margin-bottom: 30px;">
+                                        <p class="text" style="line-height: 1.3; margin-bottom: 30px;">
                                             From a remote lodge on Vancouver Island to a former Rockefeller estate in the Adirondacks or a 19th century mining town in Colorado... Discover five
                                             properties that offer guests the ultimate choice of natural contrasts.
                                         </p>
@@ -233,7 +254,7 @@
                                 <tr>
                                     <td align="center" style="background: #ffffff">
                                         <table width="300px" border='0' align='center' cellspacing='0' cellpadding='0'
-                                            style="margin: 45px 0 30px 0;"
+                                            style="margin: 45px 0 30px 0; max-width: 60%;"
                                         >
                                             <tr>
                                                 <td align="center" style="background: #1c1c1b; font-size: 1px;">
@@ -260,7 +281,7 @@
                                         <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td align="center">
-                                                    <h2
+                                                    <h2 class="section-title"
                                                         style="
                                                             font-family: 'Times New Roman', Times, serif;
                                                             text-transform: uppercase;
@@ -283,7 +304,7 @@
                                             <tr>
                                                 <td>
                                                     <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-                                                        <tr>
+                                                        <tr class="row-mobile-100">
                                                             <td>
                                                                 <a href="https://www.relaischateaux.com/us/magazine/travel/family-travel/la-bouitte-enhances-savoyard-heritage" target="_blank" style="text-decoration: none;">
                                                                     <img src="./src/images/melleur house.jpg" width="100%" alt="melleur house with snow on roof">
@@ -292,13 +313,13 @@
                                                             <td width="20px;"></td>
                                                             <td>
                                                                 <a href="https://www.relaischateaux.com/us/magazine/travel/family-travel/la-bouitte-enhances-savoyard-heritage" target="_blank" style="text-decoration: none;">
-                                                                    <img src="./src/images/cooks.jpg" width="100%" alt="cooks cooking">
+                                                                    <img src="./src/images/cooks.jpg" class="mobile-margin-top" width="100%" alt="cooks cooking">
                                                                 </a>
                                                             </td>
                                                             <td width="20px;"></td>
                                                             <td>
                                                                 <a href="https://www.relaischateaux.com/us/magazine/travel/family-travel/la-bouitte-enhances-savoyard-heritage" target="_blank" style="text-decoration: none;">
-                                                                    <img src="./src/images/bells.jpg" width="100%" alt="historic cow bell hanging">
+                                                                    <img src="./src/images/bells.jpg" class="mobile-margin-top" width="100%" alt="historic cow bell hanging">
                                                                 </a>
                                                             </td>
                                                         </tr>
@@ -316,7 +337,7 @@
                                                     >
                                                         LA BOUITTE: A FAMILY AT THE HEART OF A LIVING HERITAGE
                                                     </h4>
-                                                    <p style="line-height: 1.3; margin-bottom: 30px;">
+                                                    <p class="text" style="line-height: 1.3; margin-bottom: 30px;">
                                                         A five-star hotel and three-star restaurant with deep Savoyard roots is home to masterful mountain savoir-faire – dedication that, in 2020, earned the French property recognition as an "Entreprise du Patrimoine Vivant", 
                                                         a Living Heritage Company. 
                                                     </p>
@@ -337,7 +358,7 @@
                                             <tr>
                                                 <td align="center" style="background: #ffffff">
                                                     <table width="300px" border='0' align='center' cellspacing='0' cellpadding='0'
-                                                        style="margin: 45px 0 30px 0;"
+                                                        style="margin: 45px 0 30px 0; max-width: 60%;"
                                                     >
                                                         <tr>
                                                             <td align="center" style="background: #1c1c1b; font-size: 1px;">
@@ -359,7 +380,7 @@
                                             <tr>
                                                 <td>
                                                     <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
-                                                        <tr>
+                                                        <tr class="row-mobile-100">
                                                             <td>
                                                                 <a href="https://www.relaischateaux.com/us/magazine/travel/travel-journal/the-renaissance-of-le-chabichou" target="_blank" style="text-decoration: none;">
                                                                     <img src="./src/images/mountain.jpg" width="100%" alt="mountain top with snow">
@@ -368,13 +389,13 @@
                                                             <td width="20px;"></td>
                                                             <td>
                                                                 <a href="https://www.relaischateaux.com/us/magazine/travel/travel-journal/the-renaissance-of-le-chabichou" target="_blank" style="text-decoration: none;">
-                                                                    <img src="./src/images/ski.jpg" width="100%" alt="skiing on slope in front of houses">
+                                                                    <img src="./src/images/ski.jpg" class="mobile-margin-top" width="100%" alt="skiing on slope in front of houses">
                                                                 </a>
                                                             </td>
                                                             <td width="20px;"></td>
                                                             <td>
                                                                 <a href="https://www.relaischateaux.com/us/magazine/travel/travel-journal/the-renaissance-of-le-chabichou" target="_blank" style="text-decoration: none;">
-                                                                    <img src="./src/images/indoor seats.jpg" width="100%" alt="chairs inside wooden living area">
+                                                                    <img src="./src/images/indoor seats.jpg" class="mobile-margin-top" width="100%" alt="chairs inside wooden living area">
                                                                 </a>
                                                             </td>
                                                         </tr>
@@ -392,7 +413,7 @@
                                                     >
                                                         THE RENAISSANCE OF LE CHABICHOU
                                                     </h4>
-                                                    <p style="line-height: 1.3; margin-bottom: 30px;">
+                                                    <p class="text" style="line-height: 1.3; margin-bottom: 30px;">
                                                         After its eight-month renovation was followed by the global pandemic, guests at famed Courchevel hotel Le Chabichou can now finally take full advantage of this French
                                                         institution's stunning transformation. 
                                                     </p>
@@ -413,7 +434,7 @@
                                             <tr>
                                                 <td align="center" style="background: #ffffff">
                                                     <table width="300px" border='0' align='center' cellspacing='0' cellpadding='0'
-                                                        style="margin: 45px 0 30px 0;"
+                                                        style="margin: 45px 0 30px 0; max-width: 60%;"
                                                     >
                                                         <tr>
                                                             <td align="center" style="background: #1c1c1b; font-size: 1px;">
@@ -445,33 +466,33 @@
                                                 <td>
                                                     <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
                                                         <tr>
-                                                            <td width="30%"></td>
-                                                            <td>
+                                                            <td width="30%" class="social-links-spacer"></td>
+                                                            <td align="center">
                                                                 <a href="https://www.facebook.com/RelaisAndChateaux" target="_blank" style="text-decoration: none;">
                                                                     <img src="./src/images/facebook icon.png" width="30px" alt="facebook icon">
                                                                 </a>
                                                             </td>
-                                                            <td>
+                                                            <td align="center">
                                                                 <a href="https://www.instagram.com/relaischateaux" target="_blank" style="text-decoration: none;">
                                                                     <img src="./src/images/instagram icon.png" width="30px" alt="instagram icon">
                                                                 </a>
                                                             </td>
-                                                            <td>
+                                                            <td align="center">
                                                                 <a href="https://twitter.com/RelaisChateaux" target="_blank" style="text-decoration: none;">
                                                                     <img src="./src/images/twitter icon.png" width="30px" alt="twitter icon">
                                                                 </a>
                                                             </td>
-                                                            <td>
+                                                            <td align="center">
                                                                 <a href="https://www.linkedin.com/company/relaischateaux/" target="_blank" style="text-decoration: none;">
                                                                     <img src="./src/images/linkedin icon.png" width="30px" alt="linkedin icon">
                                                                 </a>
                                                             </td>
-                                                            <td>
+                                                            <td align="center">
                                                                 <a href="https://www.pinterest.com/relaischateaux/" target="_blank" style="text-decoration: none;">
                                                                     <img src="./src/images/pinterest icon.png" width="30px" alt="pinterest icon">
                                                                 </a>
                                                             </td>
-                                                            <td width="30%"></td>
+                                                            <td width="30%" class="social-links-spacer"></td>
                                                         </tr>
                                                     </table>
                                                 </td>
